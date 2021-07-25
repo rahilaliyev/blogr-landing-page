@@ -1,0 +1,24 @@
+.background-third-part {
+  height: 45vh;
+  background-color: #3a3d5c;
+  border-bottom-left-radius: 130px;
+  border-top-right-radius: 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../images/bg-pattern-circles.svg);
+  background-repeat: no-repeat;
+
+
+  .third-part-text {
+    width: 40%;
+    h1 {
+      font-size: 40px;
+      color: white;
+    }
+    p {
+      font-size: 18px;
+      color: white;
+    }
+  }
+}

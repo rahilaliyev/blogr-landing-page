@@ -1,0 +1,30 @@
+.background-second-part {
+  height: 100vh;
+  background-image: url(./../images/illustration-editor-desktop.svg);
+  background-repeat: no-repeat;
+  background-position-x: 140%;
+  background-size: 60%;
+  margin: 100px auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+  color: black;
+
+  h2 {
+    text-align: center;
+    width: 100%;
+  }
+  .alltexts {
+    width: 30%;
+    margin-left: 0 auto;
+    position: absolute;
+    left: 80px;
+    top: 250px;
+    .texts {
+      &:first-child {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
